@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0C83B9E1D05C8CB008E0C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C83B9D1D05C8CB008E0C13 /* AppDelegate.swift */; };
-		D0C83BA01D05C8CB008E0C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C83B9F1D05C8CB008E0C13 /* ViewController.swift */; };
-		D0C83BA31D05C8CB008E0C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C83BA11D05C8CB008E0C13 /* Main.storyboard */; };
-		D0C83BA51D05C8CC008E0C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C83BA41D05C8CC008E0C13 /* Assets.xcassets */; };
-		D0C83BA81D05C8CC008E0C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C83BA61D05C8CC008E0C13 /* LaunchScreen.storyboard */; };
+		D03AD4711D06014900BCD10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03AD4701D06014900BCD10A /* AppDelegate.swift */; };
+		D03AD4731D06014900BCD10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03AD4721D06014900BCD10A /* ViewController.swift */; };
+		D03AD4761D06014900BCD10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03AD4741D06014900BCD10A /* Main.storyboard */; };
+		D03AD4781D06014900BCD10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03AD4771D06014900BCD10A /* Assets.xcassets */; };
+		D03AD47B1D06014900BCD10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03AD4791D06014900BCD10A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0C83B9A1D05C8CB008E0C13 /* SportStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C83B9D1D05C8CB008E0C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0C83B9F1D05C8CB008E0C13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0C83BA21D05C8CB008E0C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0C83BA41D05C8CC008E0C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0C83BA71D05C8CC008E0C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0C83BA91D05C8CC008E0C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03AD46D1D06014900BCD10A /* SportStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03AD4701D06014900BCD10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D03AD4721D06014900BCD10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D03AD4751D06014900BCD10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03AD4771D06014900BCD10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03AD47A1D06014900BCD10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03AD47C1D06014900BCD10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D0C83B971D05C8CB008E0C13 /* Frameworks */ = {
+		D03AD46A1D06014900BCD10A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D0C83B911D05C8CB008E0C13 = {
+		D03AD4641D06014900BCD10A = {
 			isa = PBXGroup;
 			children = (
-				D0C83B9C1D05C8CB008E0C13 /* SportStore */,
-				D0C83B9B1D05C8CB008E0C13 /* Products */,
+				D03AD46F1D06014900BCD10A /* SportStore */,
+				D03AD46E1D06014900BCD10A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D0C83B9B1D05C8CB008E0C13 /* Products */ = {
+		D03AD46E1D06014900BCD10A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0C83B9A1D05C8CB008E0C13 /* SportStore.app */,
+				D03AD46D1D06014900BCD10A /* SportStore.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0C83B9C1D05C8CB008E0C13 /* SportStore */ = {
+		D03AD46F1D06014900BCD10A /* SportStore */ = {
 			isa = PBXGroup;
 			children = (
-				D0C83B9D1D05C8CB008E0C13 /* AppDelegate.swift */,
-				D0C83B9F1D05C8CB008E0C13 /* ViewController.swift */,
-				D0C83BA11D05C8CB008E0C13 /* Main.storyboard */,
-				D0C83BA41D05C8CC008E0C13 /* Assets.xcassets */,
-				D0C83BA61D05C8CC008E0C13 /* LaunchScreen.storyboard */,
-				D0C83BA91D05C8CC008E0C13 /* Info.plist */,
+				D03AD4701D06014900BCD10A /* AppDelegate.swift */,
+				D03AD4721D06014900BCD10A /* ViewController.swift */,
+				D03AD4741D06014900BCD10A /* Main.storyboard */,
+				D03AD4771D06014900BCD10A /* Assets.xcassets */,
+				D03AD4791D06014900BCD10A /* LaunchScreen.storyboard */,
+				D03AD47C1D06014900BCD10A /* Info.plist */,
 			);
 			path = SportStore;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0C83B991D05C8CB008E0C13 /* SportStore */ = {
+		D03AD46C1D06014900BCD10A /* SportStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0C83BAC1D05C8CC008E0C13 /* Build configuration list for PBXNativeTarget "SportStore" */;
+			buildConfigurationList = D03AD47F1D06014900BCD10A /* Build configuration list for PBXNativeTarget "SportStore" */;
 			buildPhases = (
-				D0C83B961D05C8CB008E0C13 /* Sources */,
-				D0C83B971D05C8CB008E0C13 /* Frameworks */,
-				D0C83B981D05C8CB008E0C13 /* Resources */,
+				D03AD4691D06014900BCD10A /* Sources */,
+				D03AD46A1D06014900BCD10A /* Frameworks */,
+				D03AD46B1D06014900BCD10A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +81,25 @@
 			);
 			name = SportStore;
 			productName = SportStore;
-			productReference = D0C83B9A1D05C8CB008E0C13 /* SportStore.app */;
+			productReference = D03AD46D1D06014900BCD10A /* SportStore.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D0C83B921D05C8CB008E0C13 /* Project object */ = {
+		D03AD4651D06014900BCD10A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Leonardo Lobato";
 				TargetAttributes = {
-					D0C83B991D05C8CB008E0C13 = {
+					D03AD46C1D06014900BCD10A = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = D0C83B951D05C8CB008E0C13 /* Build configuration list for PBXProject "SportStore" */;
+			buildConfigurationList = D03AD4681D06014900BCD10A /* Build configuration list for PBXProject "SportStore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = D0C83B911D05C8CB008E0C13;
-			productRefGroup = D0C83B9B1D05C8CB008E0C13 /* Products */;
+			mainGroup = D03AD4641D06014900BCD10A;
+			productRefGroup = D03AD46E1D06014900BCD10A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0C83B991D05C8CB008E0C13 /* SportStore */,
+				D03AD46C1D06014900BCD10A /* SportStore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D0C83B981D05C8CB008E0C13 /* Resources */ = {
+		D03AD46B1D06014900BCD10A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C83BA81D05C8CC008E0C13 /* LaunchScreen.storyboard in Resources */,
-				D0C83BA51D05C8CC008E0C13 /* Assets.xcassets in Resources */,
-				D0C83BA31D05C8CB008E0C13 /* Main.storyboard in Resources */,
+				D03AD47B1D06014900BCD10A /* LaunchScreen.storyboard in Resources */,
+				D03AD4781D06014900BCD10A /* Assets.xcassets in Resources */,
+				D03AD4761D06014900BCD10A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0C83B961D05C8CB008E0C13 /* Sources */ = {
+		D03AD4691D06014900BCD10A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C83BA01D05C8CB008E0C13 /* ViewController.swift in Sources */,
-				D0C83B9E1D05C8CB008E0C13 /* AppDelegate.swift in Sources */,
+				D03AD4731D06014900BCD10A /* ViewController.swift in Sources */,
+				D03AD4711D06014900BCD10A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0C83BA11D05C8CB008E0C13 /* Main.storyboard */ = {
+		D03AD4741D06014900BCD10A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0C83BA21D05C8CB008E0C13 /* Base */,
+				D03AD4751D06014900BCD10A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D0C83BA61D05C8CC008E0C13 /* LaunchScreen.storyboard */ = {
+		D03AD4791D06014900BCD10A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0C83BA71D05C8CC008E0C13 /* Base */,
+				D03AD47A1D06014900BCD10A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D0C83BAA1D05C8CC008E0C13 /* Debug */ = {
+		D03AD47D1D06014900BCD10A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,10 +204,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D0C83BAB1D05C8CC008E0C13 /* Release */ = {
+		D03AD47E1D06014900BCD10A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,11 +242,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D0C83BAD1D05C8CC008E0C13 /* Debug */ = {
+		D03AD4801D06014900BCD10A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -256,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		D0C83BAE1D05C8CC008E0C13 /* Release */ = {
+		D03AD4811D06014900BCD10A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -270,24 +272,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0C83B951D05C8CB008E0C13 /* Build configuration list for PBXProject "SportStore" */ = {
+		D03AD4681D06014900BCD10A /* Build configuration list for PBXProject "SportStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0C83BAA1D05C8CC008E0C13 /* Debug */,
-				D0C83BAB1D05C8CC008E0C13 /* Release */,
+				D03AD47D1D06014900BCD10A /* Debug */,
+				D03AD47E1D06014900BCD10A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0C83BAC1D05C8CC008E0C13 /* Build configuration list for PBXNativeTarget "SportStore" */ = {
+		D03AD47F1D06014900BCD10A /* Build configuration list for PBXNativeTarget "SportStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0C83BAD1D05C8CC008E0C13 /* Debug */,
-				D0C83BAE1D05C8CC008E0C13 /* Release */,
+				D03AD4801D06014900BCD10A /* Debug */,
+				D03AD4811D06014900BCD10A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D0C83B921D05C8CB008E0C13 /* Project object */;
+	rootObject = D03AD4651D06014900BCD10A /* Project object */;
 }

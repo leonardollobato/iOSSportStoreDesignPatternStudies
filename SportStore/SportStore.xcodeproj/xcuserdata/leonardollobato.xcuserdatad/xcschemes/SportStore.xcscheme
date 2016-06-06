@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0C83B991D05C8CB008E0C13"
+               BlueprintIdentifier = "D03AD46C1D06014900BCD10A"
                BuildableName = "SportStore.app"
                BlueprintName = "SportStore"
                ReferencedContainer = "container:SportStore.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0C83B991D05C8CB008E0C13"
+            BlueprintIdentifier = "D03AD46C1D06014900BCD10A"
             BuildableName = "SportStore.app"
             BlueprintName = "SportStore"
             ReferencedContainer = "container:SportStore.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0C83B991D05C8CB008E0C13"
+            BlueprintIdentifier = "D03AD46C1D06014900BCD10A"
             BuildableName = "SportStore.app"
             BlueprintName = "SportStore"
             ReferencedContainer = "container:SportStore.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0C83B991D05C8CB008E0C13"
+            BlueprintIdentifier = "D03AD46C1D06014900BCD10A"
             BuildableName = "SportStore.app"
             BlueprintName = "SportStore"
             ReferencedContainer = "container:SportStore.xcodeproj">
