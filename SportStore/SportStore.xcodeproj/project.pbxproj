@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01CE2471981D67617C5D7C6 /* Pods_SportStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A78E3F48738286E39A0F4 /* Pods_SportStore.framework */; };
 		D03AD4711D06014900BCD10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03AD4701D06014900BCD10A /* AppDelegate.swift */; };
 		D03AD4731D06014900BCD10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03AD4721D06014900BCD10A /* ViewController.swift */; };
 		D03AD4761D06014900BCD10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03AD4741D06014900BCD10A /* Main.storyboard */; };
 		D03AD4781D06014900BCD10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03AD4771D06014900BCD10A /* Assets.xcassets */; };
 		D03AD47B1D06014900BCD10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03AD4791D06014900BCD10A /* LaunchScreen.storyboard */; };
 		D03AD4831D0606FA00BCD10A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03AD4821D0606FA00BCD10A /* Model.swift */; };
+		D05CF7CE1D0FBD6400A25F52 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CF7CD1D0FBD6400A25F52 /* Logger.swift */; };
+		D09B352C1D0A7368005C372A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09B352B1D0A7368005C372A /* Alamofire.framework */; };
+		D09B352F1D0A746F005C372A /* SWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B352E1D0A746F005C372A /* SWPerson.swift */; };
 		D0D9DD351D0705F100B4CEF5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DD341D0705F100B4CEF5 /* Product.swift */; };
 		D0D9DD371D07121800B4CEF5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DD361D07121800B4CEF5 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C3DD88C586B484299241956 /* Pods-SportStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportStore/Pods-SportStore.release.xcconfig"; sourceTree = "<group>"; };
+		A79A78E3F48738286E39A0F4 /* Pods_SportStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE91BCA9C055FA0DDA86BFB3 /* Pods-SportStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportStore/Pods-SportStore.debug.xcconfig"; sourceTree = "<group>"; };
 		D03AD46D1D06014900BCD10A /* SportStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03AD4701D06014900BCD10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D03AD4721D06014900BCD10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		D03AD47A1D06014900BCD10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D03AD47C1D06014900BCD10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D03AD4821D0606FA00BCD10A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D05CF7CD1D0FBD6400A25F52 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D09B352B1D0A7368005C372A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/SportStore-ewmmjsyjgjyqjocafnbchsjokcyy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		D09B352E1D0A746F005C372A /* SWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPerson.swift; sourceTree = "<group>"; };
 		D0D9DD341D0705F100B4CEF5 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D0D9DD361D07121800B4CEF5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,17 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09B352C1D0A7368005C372A /* Alamofire.framework in Frameworks */,
+				D01CE2471981D67617C5D7C6 /* Pods_SportStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77067DB3358DBA9BE30A048F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D09B352B1D0A7368005C372A /* Alamofire.framework */,
+				A79A78E3F48738286E39A0F4 /* Pods_SportStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D03AD4641D06014900BCD10A = {
 			isa = PBXGroup;
 			children = (
 				D03AD46F1D06014900BCD10A /* SportStore */,
 				D03AD46E1D06014900BCD10A /* Products */,
+				F5077676D48E8A5FFA7B6A3E /* Pods */,
+				77067DB3358DBA9BE30A048F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,16 +84,59 @@
 			isa = PBXGroup;
 			children = (
 				D03AD4701D06014900BCD10A /* AppDelegate.swift */,
-				D03AD4821D0606FA00BCD10A /* Model.swift */,
-				D03AD4721D06014900BCD10A /* ViewController.swift */,
-				D0D9DD341D0705F100B4CEF5 /* Product.swift */,
-				D0D9DD361D07121800B4CEF5 /* Utils.swift */,
-				D03AD4741D06014900BCD10A /* Main.storyboard */,
+				D05CF7CC1D0FBD5000A25F52 /* Utils */,
+				D09B352D1D0A745F005C372A /* Model */,
+				D05CF7CA1D0FBA0F00A25F52 /* View */,
+				D05CF7CB1D0FBA1A00A25F52 /* Controller */,
 				D03AD4771D06014900BCD10A /* Assets.xcassets */,
 				D03AD4791D06014900BCD10A /* LaunchScreen.storyboard */,
 				D03AD47C1D06014900BCD10A /* Info.plist */,
 			);
 			path = SportStore;
+			sourceTree = "<group>";
+		};
+		D05CF7CA1D0FBA0F00A25F52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03AD4741D06014900BCD10A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D05CF7CB1D0FBA1A00A25F52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D03AD4721D06014900BCD10A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D05CF7CC1D0FBD5000A25F52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D0D9DD361D07121800B4CEF5 /* Utils.swift */,
+				D05CF7CD1D0FBD6400A25F52 /* Logger.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D09B352D1D0A745F005C372A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D03AD4821D0606FA00BCD10A /* Model.swift */,
+				D0D9DD341D0705F100B4CEF5 /* Product.swift */,
+				D09B352E1D0A746F005C372A /* SWPerson.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F5077676D48E8A5FFA7B6A3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE91BCA9C055FA0DDA86BFB3 /* Pods-SportStore.debug.xcconfig */,
+				5C3DD88C586B484299241956 /* Pods-SportStore.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D03AD47F1D06014900BCD10A /* Build configuration list for PBXNativeTarget "SportStore" */;
 			buildPhases = (
+				35734D30BD219CFDB29A38A3 /* [CP] Check Pods Manifest.lock */,
 				D03AD4691D06014900BCD10A /* Sources */,
 				D03AD46A1D06014900BCD10A /* Frameworks */,
 				D03AD46B1D06014900BCD10A /* Resources */,
+				7269065C51EFE4E064C985D4 /* [CP] Embed Pods Frameworks */,
+				9D8D348EC8691C3C102F7D29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +208,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35734D30BD219CFDB29A38A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7269065C51EFE4E064C985D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportStore/Pods-SportStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8D348EC8691C3C102F7D29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportStore/Pods-SportStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D03AD4691D06014900BCD10A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -146,7 +263,9 @@
 			files = (
 				D0D9DD371D07121800B4CEF5 /* Utils.swift in Sources */,
 				D03AD4831D0606FA00BCD10A /* Model.swift in Sources */,
+				D09B352F1D0A746F005C372A /* SWPerson.swift in Sources */,
 				D0D9DD351D0705F100B4CEF5 /* Product.swift in Sources */,
+				D05CF7CE1D0FBD6400A25F52 /* Logger.swift in Sources */,
 				D03AD4731D06014900BCD10A /* ViewController.swift in Sources */,
 				D03AD4711D06014900BCD10A /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +380,7 @@
 		};
 		D03AD4801D06014900BCD10A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE91BCA9C055FA0DDA86BFB3 /* Pods-SportStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SportStore/Info.plist;
@@ -272,6 +392,7 @@
 		};
 		D03AD4811D06014900BCD10A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3DD88C586B484299241956 /* Pods-SportStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SportStore/Info.plist;

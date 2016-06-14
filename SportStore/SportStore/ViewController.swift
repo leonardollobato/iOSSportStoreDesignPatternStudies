@@ -1,4 +1,5 @@
 import UIKit
+import Alamofire
 
 class ProductTableCell: UITableViewCell {
     @IBOutlet weak var nameLabel:UILabel!
@@ -10,14 +11,24 @@ class ProductTableCell: UITableViewCell {
     
 }
 
+var handler = {
+    (p:Product) in
+    print("Change: \(p.name) \(p.stockLevel) items in stock")
+}
+
 class ViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var totalStockLabel:UILabel!
     @IBOutlet weak var tableView:UITableView!
+    let logger = Logger<Product>(callback: handler)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         displayStockTotal()
+    }
+    
+    func loadJson(){
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,7 +48,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         cell.product = Model.products[indexPath.row]
         cell.nameLabel.text = product.name
-        cell.descriptionLabel.text = product.description
+        cell.descriptionLabel.text = product.productDescription
         cell.stockStepper.value = Double(product.stockLevel)
         cell.stockField.text = String(product.stockLevel)
         
@@ -74,6 +85,7 @@ class ViewController: UIViewController, UITableViewDataSource {
                         
                         cell.stockStepper.value = Double(product.stockLevel)
                         cell.stockField.text = String(product.stockLevel)
+                        logger.logItem(product)
 
                     }
                     

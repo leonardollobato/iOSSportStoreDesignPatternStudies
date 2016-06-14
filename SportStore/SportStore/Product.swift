@@ -1,15 +1,22 @@
 
-class Product {
+import Foundation
+
+class Product: NSObject, NSCopying{
     private(set) var name:String
-    private(set) var description:String
+    private(set) var productDescription:String
     private(set) var category:String
     private var stockBackingValue:Int = 0
     private var priceBackingValue:Double = 0
     
-    init(name: String, description:String, category:String, price:Double, stockLevel:Int){
+    init(name: String, productDescription:String, category:String, price:Double, stockLevel:Int){
         self.name = name
-        self.description = description
+        self.productDescription = productDescription
         self.category = category
+        
+        // this is the superclass initiliazer and MUST be called AFTER the stored properties
+        // and BEFORE computed properties.
+        super.init()
+        
         self.price = price
         self.stockLevel = stockLevel
     }
@@ -27,6 +34,12 @@ class Product {
     
     var stockValue:Double {
         get{ return self.price * Double(self.stockLevel) }
+    }
+    
+    func copyWithZone(zone: NSZone) -> AnyObject {
+        return Product(name: self.name, productDescription: self.productDescription,
+                       category: self.category, price: self.price,
+                       stockLevel: self.stockLevel)
     }
     
     
